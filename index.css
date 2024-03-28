@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+#question{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    
+}
+#result {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    text-align: center;
+}
+

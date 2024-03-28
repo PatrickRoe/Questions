@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="quiz-container">
+        <h1 id="question"></h1>
+        <div id="answers"></div>
+        <button id="next-button" onclick="nextQuestion()">Nächste Frage</button>
+    </div>
+    
+    <div id="result" style="display: none;">
+        <h1>Quiz beendet!</h1>
+        <p>Deine Punktzahl:<span id="score"></span> von 7</p>
+        
+    </div>
+    
+</body>
+    <script src="./quiz.js"></script>
+</html>
